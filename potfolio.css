@@ -1,0 +1,154 @@
+*{padding: 0%;margin: 0%;}
+body{
+          background-color: #363543; 
+          width: 100%;
+          height: max-content;
+          color: white; 
+          margin-bottom: 50px;       
+}
+/* navigation bar */
+nav{width: 100%; height: 50px;position: relative; box-shadow: 0px 2px 10px aqua;}
+.left_nav{margin-left: 20px;width: 50%;height: 100%;display: flex;float: left;justify-content: space-around; align-items: center;list-style: none;font-size: small;}
+.right_nav{margin-right: 20px;width:250px;height: 100%;display: flex;float: right;justify-content: space-around; align-items: center; gap: 10px;list-style: none;font-size: small;}
+/* main potfolio */
+
+main{width: 100%;height: 100%; display: flex; flex-direction: column;justify-content: space-around;gap: 30px;}
+
+
+main section{width:100%;height:50vh;display:flex; justify-content: space-around;margin-top: 30px;}
+.background_video{ width: 100%;height: 60vh;position: absolute;left: 10;top: 50px;z-index: -1;}
+
+.background_video video{width: 100%;height: 100%;position:absolute;object-fit: fill;opacity: 0.4;}
+main section div{ width: 30%; height: 100%;z-index: 1;}
+main section div h1{color: aqua;}
+.left_main{height: 70%;overflow-y: scroll;scroll-behavior: smooth;align-items: start;display: flex; flex-direction: column;justify-content: start;margin-top: 100px;}
+.left_main p{font-size:medium;margin-top: 10px;}
+.middle_main div{width: 200px; height: 200px; align-items: flex-end; display: flex;
+          border-radius:100px;
+          background-color:whitesmoke;
+          box-shadow: 0px 5px 20px aqua;
+          margin-left: 10%;
+          z-index: 1;position: relative;
+}
+.middle_main div img{ width: 200px;z-index: 1;position: relative; border-radius: 100px;margin-left: 0%;margin-bottom: 2%;}
+.right_main p{margin-top: 10px;font-size: medium;}
+.right_main{overflow-y: scroll;scroll-behavior: smooth;}
+.align_background{display: flex;width: 100%;height: 55vh; justify-content: center;align-items: center;  position: absolute;}
+
+/* project Card */
+.all_projects{margin-left: 1%;height: 110px; width: 98%;box-shadow: 0px 10px 20px springgreen;border-radius: 30px;}
+
+.Project_card{display: flex;height: 100px; width: 100%; flex-direction: row; justify-content: space-around; align-items: center;flex-wrap: wrap;gap: 10px;
+}
+.details{display: flex;height: 100%; width: 10%;justify-content: space-around; align-items: center;color:  aqua;gap: 10px;}
+.inner_details h1{color: gainsboro;}
+.inner_details h3{font-size: small;}
+.Heading_project{width: 100%;height: fit-content; display: flex;justify-content: center;align-items: center;margin-top: 1%;}
+.Heading_project p{font-weight: bolder;font-size:80px;color:white;text-shadow: 5px 8px 5px springgreen ;margin-top: 5px;font-family: 'Tangerine', serif;}
+
+/* Education details */
+.education{
+    width: 98%; height: 50vh; display: flex;justify-content: space-around; align-items: center;
+    margin: 1%;border-radius: 30px;box-shadow: 0px 10px 20px darkorchid;margin-top: 100px;
+}
+.education div{width: 100%; height: 100%;}
+.education .details{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: last start;
+    margin-left: 2%;
+    color: white;
+    text-shadow: 5px 8px 5px darkorchid;
+}
+.more_detail_edu{display: flex;width: 100%; height: 100%; justify-content: space-around; align-items: center;
+flex-direction: column;
+color: white;
+text-shadow: 0px 1px 0px darkorchid;
+}
+
+.clg {display: flex; justify-content: space-around; align-items: center;width: 100%; height: 100%;}
+.clg div{display: flex; flex-direction: column; justify-content: center;width: 100%; align-items: center;}
+.clg div img{ width: 40%;height: 40%;}
+.clg div p{text-align: center;}
+.cross_line{background-color:gold;
+    transform: rotate(5deg);border-radius: 30px;
+    margin-left: -10%;
+}
+/* Project Details */
+.project_Details{
+    display: flex;
+    width: 100%;
+    height: 550vh;
+    flex-direction: column;overflow: hidden;
+    
+}
+/* Android App Card */
+.android_project{
+    width: 100%;height: 90vh;
+    position: relative;  overflow-x: scroll;
+  
+}
+.android_project section{width: 1400px; height: 100%;}
+.android_project div{width:33%; height: 90%;float: left;}
+.android_project div img{width:30px; height:40%;position: absolute;}
+.middle_android{display: flex; justify-content: space-around;align-items: center;flex-direction: column;}
+.middle_android h1{ z-index: 1; color: white;text-shadow: 2px 3px 3px springgreen;font-size: xx-large;}
+
+/* Game card */
+.Game_project{ width: 98%;height: 50vh;box-shadow: -5px 3px 5px springgreen;margin: 1%;position: relative;
+display: flex;
+justify-content: space-around;
+align-items: center; position: relative;
+
+
+}
+.Game_project div{width: 49%;height: 100%;}
+.Game_project .description{width: 60%;overflow-y: scroll;}
+.game_video{float: right;margin-right: -30%;width: 60%;height: 100%; border-radius: 60%;}
+.game_video video{object-fit:fill; width: 50%;height: 100%;border-top-left-radius:50%;border-bottom-left-radius:50%;}
+.Game_project div h1{text-shadow: 1px 1px 1px springgreen;}
+
+/* Augmented Reality */
+.Augmented_reality{
+    width: 99%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+    margin-top: 3%;
+    gap: 50px;
+    margin-left: 10px;
+}
+.Augmented_reality div{width: 100%; height: 49%;display: flex;justify-content: space-around;align-items: center;}
+.Augmented_reality div div{width: 100%;height: 100%; flex-direction: column; display: flex; justify-content: center;align-items: start;}
+.video_ar section img{width:20%;height: 80%;top: 0%;}
+.video_ar section{width:100%;height: 60%;}
+.Augmented_reality .Description h1{text-shadow: 0px 1px 1.5px aqua; font-family: "Sofia",sans-serif;}
+.Augmented_reality .Description h3{color: aqua;}
+
+/* website And Flutter */
+.website_flutter{flex-direction: row;display: flex;height:120vh; width: 92%;justify-content: start;gap:10%;margin: 5%;margin-top: 10%;}
+.website_flutter div{width: 49%; height: 100%;display: flex; flex-direction: column; justify-content: space-around;align-items: start;}
+.flutter section img{width: 30%;height: 70%;}
+.flutter h1{text-shadow: 1px 1px 2px springgreen;}
+.flutter h3{color: springgreen;}
+.website  img{width: 89%;height: 20%;}
+.website h1{text-shadow: 1px 1px 2px springgreen;}
+.website h3{color: springgreen;}
+/* to hide scroll bar */
+.right_main::-webkit-scrollbar {
+    display: none;
+}
+.left_main::-webkit-scrollbar {
+    display: none;
+}
+.Game_project div::-webkit-scrollbar{display: none;}
+.android_project::-webkit-scrollbar{display: none;}
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+
